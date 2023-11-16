@@ -4,6 +4,8 @@ public class Main {
     public static void main(String[] args) {
        Rectángulo rectangulo=new Rectángulo(5.1 , 2.8);
       double arear= rectangulo.calculaArea();
+      triangulo triangulo=new triangulo(12, 7);
+      double areatr=triangulo.calcularAreaTrinagulo();
       circulo circulo=new circulo(6.4);
       double areacir= circulo.calculaAreaCirculo();
       pentagono pentagono=new pentagono(5,7.5);
